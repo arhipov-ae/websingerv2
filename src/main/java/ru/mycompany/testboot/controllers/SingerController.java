@@ -8,9 +8,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import ru.mycompany.testboot.model.entities.Singer;
-import ru.mycompany.testboot.model.services.SingerService;
-import ru.mycompany.testboot.model.services.TestSingerServiceImpl;
+//import ru.mycompany.testboot.model.*;
 //import ru.mycompany.testboot.model.entities.Singer;
 //import ru.mycompany.testboot.model.services.SingerService;
 
@@ -22,7 +20,7 @@ import java.util.List;
 @RequestMapping("/singers")
 @Controller
 public class SingerController {
-    private final Logger logger = LoggerFactory.getLogger(SingerController.class);
+//    private final Logger logger = LoggerFactory.getLogger(SingerController.class);
 
     @RequestMapping(method = RequestMethod.GET)
     public String testing(Model uiModel) {
